@@ -10,7 +10,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-/**
+
+/*
  * \brief Obtiene dos numeros por consola y los suma.
  * \param float a, float b numeros a sumar.
  * \return resultado de la suma.
@@ -77,4 +78,3 @@ int factorial(int a){
 	}
 	return resultadoA;
 }
-
