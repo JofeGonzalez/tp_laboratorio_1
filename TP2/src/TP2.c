@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include "ArrayEmployees.h"
 #include "utn.h"
-#define MAX_EMPLOYEES 5
+#define MAX_EMPLOYEES 1000
 
 int main(void) {
 	setbuf(stdout, NULL);
