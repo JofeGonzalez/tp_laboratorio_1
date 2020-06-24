@@ -297,7 +297,7 @@ int ll_indexOf(LinkedList *this, void *pElement) {
 	Node *pNode = NULL;
 	if (this != NULL) {
 		for (i = 0; i < ll_len(this); i++) {
-			pNode = this->pFirstNode;
+			pNode = getNode(this, i);
 			if (pNode->pElement == pElement) {
 				returnAux = i;
 				break;
